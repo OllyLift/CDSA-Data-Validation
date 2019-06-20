@@ -17,8 +17,8 @@ def df_empty(columns, dtypes, index=None):
 def main():
     # Your Account Sid and Auth Token from twilio.com/console
     # DANGER! This is insecure. See http://twil.io/secure
-    account_sid = 'AC26148ce5f322d3a7c43b767d5f7e7a67'
-    auth_token = '3419974ba98b414fc882d961b06a1727'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     df = pd.read_excel(file)
